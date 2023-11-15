@@ -1,0 +1,28 @@
+public class details{
+public static void main(String args[]){
+System.out.println("DIT");
+System.out.println("Mercie");
+System.out.println("22/07479");
+System.out.println("14/01/2005");
+System.out.println("programmer");
+System.out.println("Java Script");
+
+System.out.println("DIT");
+System.out.println("Fidelis");
+System.out.println("22/07865");
+System.out.println("14/01/2005");
+System.out.println("developer");
+System.out.println("Java Script");
+
+System.out.println("DIT");
+System.out.println("Lyn");
+System.out.println("22/06864");
+System.out.println("14/01/2005");
+System.out.println("coding");
+System.out.println("Java Script");
+}
+}
+
+
+
+
