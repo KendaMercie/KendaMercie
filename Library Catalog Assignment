@@ -1,0 +1,50 @@
+import java.util.ArrayList;
+
+public class LibraryCatalog {
+
+    public static void main(String[] args) {
+        // Create a new ArrayList of Books
+        ArrayList<Book> books = new ArrayList<>();
+
+        // Create some Book objects and add them to the ArrayList
+        books.add(new Book("Our Lives Today", "Mentor Science"));
+        books.add(new Book("Blossoms of Savannah", "The Pearl"));
+        books.add(new Book("Dolls House", "Jungle Book"));
+
+        // Display the library catalog
+        for (Book book : books) {
+            System.out.println("Title: " + book.getTitle());
+            System.out.println("Author: " + book.getAuthor());
+            System.out.println();
+        }
+    }
+}
+
+class
+ 
+Book
+ 
+{
+    private String title;
+    private String author;
+ public
+ 
+Book(String title, String author)
+ 
+{
+        this.title = title;
+        this.author = author;
+    }
+
+    public String getTitle()
+ 
+{
+        return title;
+    }
+
+    public String getAuthor()
+ 
+{
+        return author;
+    }
+}
